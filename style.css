@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#section{
+    width: 50vw;
+    height: 50vh;
+    position: fixed;
+    top: 25vh;
+    left: 25vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+span{
+    position: relative;
+    left: 22vw;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: grey;
+    cursor: default;
+}
+#input{
+    position: relative;
+    top: 20px;
+    width: 30vw;
+    height: 40px;
+    margin: auto;
+    box-shadow: 0 0 5px grey;
+    border-radius: 20px 20px 20px 20px;
+}
+#listinput{
+    width: 25vw;
+    height: 40px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    padding-left: 20px;
+    background-color: #eeeeee;
+}
+#add{
+    width: 5vw;
+    height: 40px;
+    float: right;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(59, 137, 226);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#add:active{
+    background-color: rgb(0, 153, 255);
+}
+input:focus,button:focus{
+    outline: none;
+}
+ul{
+    position: relative;
+    top: 30px;
+    left: 6.5vw;
+    width: 25vw;
+}
+ul li{
+    list-style-type: none;
+    border: 1px solid #d4d4d4;
+    height: 40px;
+    width: 30vw;
+}
